@@ -1,0 +1,166 @@
+.sidebar{   
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+.sidebar__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    color: black;
+    border-bottom: 3px solid #26282c;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+
+.sidebar__channels{
+    flex: 1;
+
+}
+.sidebar__addChannel{
+    cursor: pointer;
+}
+.sidebar__addChannel:hover {
+    color: white;
+}
+.sidebar__channelsHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    color: black;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.sidebar__channelsHeader > Button {
+    border-radius: 50px 10px;
+    background-color: rgb(207, 165, 165);
+    color: black;
+    size: 5px;
+   
+    
+
+}
+.sidebar__header{
+    display: flex;
+    align-items: center;
+}
+.sidebar__voice,
+.sidebar__profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+
+    padding: 10px;
+    border-top: 1px solid gray;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.sidebar__voiceInfo{
+    flex: 1;
+    padding: 10px;
+}
+.sidebar__voiceIcon{
+    color: blue;
+}
+.sidebar__voiceInfo >h3 {
+    color: black;
+}
+.sidebar__voiceInfo > p{
+    font-size: smaller;
+}
+.sidebar__voiceIcon > .MuiSvgIcon-root{
+    padding: 10px;
+}
+
+.sidebar__profileInfo{
+    flex: 1;
+    padding: 10px;
+
+}
+.sidebar__profileInfo > h3{
+    color: black;
+
+}
+.sidebar__profileIcons > .MuiSvgIcon-root {
+    padding: 10px;
+}
+.sidebar__room{
+    display: flex;
+    color: green;
+}
+.sidebar__room > button {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: rgb(95, 165, 95);
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    margin: auto;
+}
