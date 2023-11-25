@@ -15,7 +15,7 @@ function Chatt() {
     const [chosenEmoji, setChosenEmoji] = useState(null);
 
   const onEmojiClick = (event, emojiObject) => {
-    setChosenEmoji(emojiObject);
+      setChosenEmoji(emojiObject);
   };
     const channelId = useSelector(selectChannelId);
     const user = useSelector(selectUser);
