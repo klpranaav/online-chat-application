@@ -11,7 +11,7 @@ import db from './firebase';
 import firebase from 'firebase';
 import Picker from 'emoji-picker-react';
 
-function Chatt() {
+function Chatt() { 
     const [chosenEmoji, setChosenEmoji] = useState(null);
 
   const onEmojiClick = (event, emojiObject) => {
